@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-xxhdpi/widget_resize_shadow.9.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-xxhdpi/widget_resize_shadow.9.png"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-xxhdpi/workspace_bg.9.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-xxhdpi/workspace_bg.9.png"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-xxhdpi/widget_resize_frame.9.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-xxhdpi/widget_resize_frame.9.png"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-xxhdpi/ic_allapps.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-xxhdpi/ic_allapps.png"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-xxhdpi/ic_widget_resize_handle.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-xxhdpi/ic_widget_resize_handle.png"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-xxhdpi/ic_allapps_pressed.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-xxhdpi/ic_allapps_pressed.png"
+    }
+]

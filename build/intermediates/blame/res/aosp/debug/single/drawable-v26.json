@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-v26/adaptive_icon_drawable_wrapper.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-v26/adaptive_icon_drawable_wrapper.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable-v26/ic_launcher_home.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable-v26/ic_launcher_home.xml"
+    }
+]

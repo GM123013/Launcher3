@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_star_rating.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_star_rating.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/widget_internal_focus_bg.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/widget_internal_focus_bg.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_all_apps_bg_icon_4.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_all_apps_bg_icon_4.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_setting.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_setting.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_all_apps_bg_icon_1.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_all_apps_bg_icon_1.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/round_rect_primary.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/round_rect_primary.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/all_apps_search_hint.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/all_apps_search_hint.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_remove_no_shadow.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_remove_no_shadow.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_uninstall_no_shadow.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_uninstall_no_shadow.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/deep_shortcuts_drag_handle.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/deep_shortcuts_drag_handle.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_all_apps_bg_icon_2.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_all_apps_bg_icon_2.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/bg_celllayout.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/bg_celllayout.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_icon_background.xml",
+        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_all_apps_bg_hand.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_all_apps_bg_hand.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_info_no_shadow.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_info_no_shadow.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_widget.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_widget.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_instant_app_badge.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_instant_app_badge.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/all_apps_divider.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/all_apps_divider.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_wallpaper.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_wallpaper.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/horizontal_ellipsis.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/horizontal_ellipsis.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_warning.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_launcher_home.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_launcher_home.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_all_apps_bg_icon_3.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_all_apps_bg_icon_3.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/all_apps_button_icon.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/all_apps_button_icon.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_bg_low.xml",
+        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/pending_widget_bg.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/pending_widget_bg.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_allapps_search.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/ic_allapps_search.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_bg.xml",
+        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/all_apps_search_divider.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/all_apps_search_divider.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/gutter_horizontal.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/drawable/gutter_horizontal.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_tile_bg.xml"
+    }
+]

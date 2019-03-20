@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/mipmap-xhdpi/ic_launcher_home_foreground.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/mipmap-xhdpi/ic_launcher_home_foreground.png"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/mipmap-xhdpi/ic_launcher_home.png",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/mipmap-xhdpi/ic_launcher_home.png"
+    }
+]

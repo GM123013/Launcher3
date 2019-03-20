@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/default_workspace_4x4.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/default_workspace_4x4.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/device_profiles.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/device_profiles.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/default_workspace_5x6.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/default_workspace_5x6.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/default_workspace_3x3.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/default_workspace_3x3.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/dw_phone_hotseat.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/dw_phone_hotseat.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/dw_tablet_hotseat.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/dw_tablet_hotseat.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/default_workspace_5x5.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/default_workspace_5x5.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/backupscheme.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/backupscheme.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/xml/launcher_preferences.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/xml/launcher_preferences.xml"
+    }
+]

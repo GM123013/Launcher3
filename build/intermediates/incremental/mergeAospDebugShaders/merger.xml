@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/meng/AndroidStudioProjects/Launcher3/src/main/shaders"/></dataSet><dataSet config="aosp"><source path="/home/meng/AndroidStudioProjects/Launcher3/src/aosp/shaders"/></dataSet><dataSet config="debug"><source path="/home/meng/AndroidStudioProjects/Launcher3/src/debug/shaders"/></dataSet><dataSet config="aospDebug"><source path="/home/meng/AndroidStudioProjects/Launcher3/src/aospDebug/shaders"/></dataSet></merger>

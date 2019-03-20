@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/animator/discovery_bounce.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/animator/discovery_bounce.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/animator/all_apps_fastscroll_icon_anim.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/animator/all_apps_fastscroll_icon_anim.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/animator/overview_button_anim.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/animator/overview_button_anim.xml"
+    }
+]

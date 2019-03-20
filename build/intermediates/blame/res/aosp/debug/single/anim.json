@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/anim/no_anim.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/anim/no_anim.xml"
+    },
+    {
+        "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/anim/task_open_enter.xml",
+        "source": "/home/meng/AndroidStudioProjects/Launcher3/res/anim/task_open_enter.xml"
+    }
+]
