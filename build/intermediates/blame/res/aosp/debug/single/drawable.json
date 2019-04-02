@@ -49,7 +49,7 @@
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_icon_background.xml",
-        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_icon_background.xml"
+        "source": "/home/meng/.android/build-cache/bc0aa3a253b17481b2a8fdaebe2cb559946bfbb8/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/ic_all_apps_bg_hand.xml",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_bg_low.xml",
-        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_bg_low.xml"
+        "source": "/home/meng/.android/build-cache/bc0aa3a253b17481b2a8fdaebe2cb559946bfbb8/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/pending_widget_bg.xml",
@@ -109,7 +109,7 @@
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_bg.xml",
-        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_bg.xml"
+        "source": "/home/meng/.android/build-cache/bc0aa3a253b17481b2a8fdaebe2cb559946bfbb8/output/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/all_apps_search_divider.xml",
@@ -121,6 +121,6 @@
     },
     {
         "merged": "/home/meng/AndroidStudioProjects/Launcher3/build/intermediates/res/merged/aosp/debug/drawable/notification_tile_bg.xml",
-        "source": "/home/meng/.android/build-cache/75975f536ea1a2a2b6825021b0a5c93ca4708224/output/res/drawable/notification_tile_bg.xml"
+        "source": "/home/meng/.android/build-cache/bc0aa3a253b17481b2a8fdaebe2cb559946bfbb8/output/res/drawable/notification_tile_bg.xml"
     }
 ]

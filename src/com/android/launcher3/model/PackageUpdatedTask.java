@@ -15,12 +15,14 @@
  */
 package com.android.launcher3.model;
 
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.LauncherActivityInfo;
 import android.graphics.Bitmap;
 import android.os.Process;
+import android.os.SystemClock;
 import android.os.UserHandle;
 import android.util.ArrayMap;
 import android.util.Log;
@@ -55,6 +57,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
+import static android.security.KeyStore.getApplicationContext;
+
 /**
  * Handles updates due to changes in package manager (app installed/updated/removed)
  * or when a user availability changes.
@@ -83,6 +87,7 @@ public class PackageUpdatedTask extends BaseModelUpdateTask {
         mPackages = packages;
     }
 
+    @SuppressLint("LongLogTag")
     @Override
     public void execute(LauncherAppState app, BgDataModel dataModel, AllAppsList appsList) {
         final Context context = app.getContext();
@@ -155,6 +160,30 @@ public class PackageUpdatedTask extends BaseModelUpdateTask {
 
         final ArrayList<AppInfo> addedOrModified = new ArrayList<>();
         addedOrModified.addAll(appsList.added);
+
+        //add by start
+        final List<UserHandle> profiles = UserManagerCompat.getInstance(context).getUserProfiles();
+        ArrayList<InstallShortcutReceiver.PendingInstallShortcutInfo> added = new ArrayList<InstallShortcutReceiver.PendingInstallShortcutInfo>();
+        for (UserHandle user : profiles) {
+            final List<LauncherActivityInfo> apps = LauncherAppsCompat.getInstance(context).getActivityList(null, user);
+
+            synchronized (this) {
+                for (LauncherActivityInfo info : apps) {
+                    for (AppInfo appInfo : appsList.added) {
+                        if(info.getComponentName().equals(appInfo.componentName)){
+                            InstallShortcutReceiver.PendingInstallShortcutInfo mPendingInstallShortcutInfo =  new InstallShortcutReceiver.PendingInstallShortcutInfo(info,context);
+                            added.add(mPendingInstallShortcutInfo);
+                        }
+                    }
+                }
+            }
+        }
+        if (!added.isEmpty()) {
+            app.getModel().addAndBindAddedWorkspaceItems(new InstallShortcutReceiver.LazyShortcutsProvider(context.getApplicationContext(), added));
+        }
+        //add by end
+        if (FeatureFlags.INFO_DEBUG_FLAG)Log.i("Launcher_PachageUpdatedTask","execute():Install apk and load the icon the desktop");
+
         appsList.added.clear();
         addedOrModified.addAll(appsList.modified);
         appsList.modified.clear();

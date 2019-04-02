@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.test.uiautomator:uiautomator-v18-2.1.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/02c130a07a6892e19da3231cff845bb4f679beca/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/02c130a07a6892e19da3231cff845bb4f679beca/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/uiautomator/uiautomator-v18/2.1.2/uiautomator-v18-2.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/test/uiautomator/uiautomator-v18/2.1.2/uiautomator-v18-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

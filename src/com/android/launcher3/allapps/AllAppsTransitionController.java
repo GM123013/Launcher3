@@ -202,7 +202,7 @@ public class AllAppsTransitionController implements TouchController, SwipeDetect
         mContainerVelocity = velocity;
 
         float shift = Math.min(Math.max(0, mShiftStart + displacement), mShiftRange);
-        setProgress(shift / mShiftRange);
+        //setProgress(shift / mShiftRange);
 
         return true;
     }

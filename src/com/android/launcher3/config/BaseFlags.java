@@ -29,6 +29,7 @@ abstract class BaseFlags {
     BaseFlags() {}
 
     public static final boolean IS_DOGFOOD_BUILD = false;
+    public static final boolean INFO_DEBUG_FLAG = true;
 
     // Custom flags go below this
     public static boolean LAUNCHER3_DISABLE_ICON_NORMALIZATION = false;

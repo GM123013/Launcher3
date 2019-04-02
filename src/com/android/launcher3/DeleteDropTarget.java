@@ -16,11 +16,14 @@
 
 package com.android.launcher3;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
+import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.dragndrop.DragOptions;
 import com.android.launcher3.folder.Folder;
 
@@ -49,16 +52,29 @@ public class DeleteDropTarget extends ButtonDropTarget {
         setTextBasedOnDragSource(dragObject.dragSource);
     }
 
-    /** @return true for items that should have a "Remove" action in accessibility. */
+    /**
+     * @return true for items that should have a "Remove" action in accessibility.
+     */
     public static boolean supportsAccessibleDrop(ItemInfo info) {
         return (info instanceof ShortcutInfo)
                 || (info instanceof LauncherAppWidgetInfo)
                 || (info instanceof FolderInfo);
     }
 
+    @SuppressLint("LongLogTag")
     @Override
     protected boolean supportsDrop(DragSource source, ItemInfo info) {
-        return true;
+        //add the start
+        if (info instanceof ShortcutInfo) {
+            ShortcutInfo item = (ShortcutInfo) info;
+            return item.itemType != LauncherSettings.BaseLauncherColumns.ITEM_TYPE_APPLICATION;
+        }
+
+        if (FeatureFlags.INFO_DEBUG_FLAG)Log.i("Launcher_DeleteDropTarget","supportsDrop():App icon drag deleted to dry");
+
+        return info instanceof LauncherAppWidgetInfo;
+        //add the end
+        //return true;
     }
 
     /**

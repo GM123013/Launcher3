@@ -2916,11 +2916,11 @@ public class Launcher extends BaseActivity
      * Shows the apps view.
      */
     public void showAppsView(boolean animated, boolean updatePredictedApps) {
-        markAppsViewShown();
+/*        markAppsViewShown();
         if (updatePredictedApps) {
             tryAndUpdatePredictedApps();
         }
-        showAppsOrWidgets(State.APPS, animated);
+        showAppsOrWidgets(State.APPS, animated);*/
     }
 
     /**

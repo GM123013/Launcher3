@@ -77,6 +77,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CancellationException;
 
+import static android.security.KeyStore.getApplicationContext;
+
 /**
  * Runnable for the thread that loads the contents of the launcher:
  *   - workspace icons
@@ -805,6 +807,35 @@ public class LoaderTask implements Runnable {
             // Query for the set of apps
             final long qiaTime = DEBUG_LOADERS ? SystemClock.uptimeMillis() : 0;
             final List<LauncherActivityInfo> apps = mLauncherApps.getActivityList(null, user);
+
+            //add the start
+            ArrayList<InstallShortcutReceiver.PendingInstallShortcutInfo> added = new ArrayList<InstallShortcutReceiver.PendingInstallShortcutInfo>();
+            synchronized (this) {
+                for (LauncherActivityInfo app : apps) {
+                    InstallShortcutReceiver.PendingInstallShortcutInfo pendingInstallShortcutInfo =  new InstallShortcutReceiver.PendingInstallShortcutInfo(app,getApplicationContext());
+                    added.add(pendingInstallShortcutInfo);
+                }
+            }
+            if (!added.isEmpty()) {
+                mApp.getModel().addAndBindAddedWorkspaceItems(new InstallShortcutReceiver.LazyShortcutsProvider(getApplicationContext(), added));
+            }
+            //add the end
+            if (FeatureFlags.INFO_DEBUG_FLAG)Log.i("Launcher_LoaderTask","loadAllApps():All app icon added to the desktop");
+
+        }
+    }
+
+    /*private void loadAllApps() {
+        final long loadTime = DEBUG_LOADERS ? SystemClock.uptimeMillis() : 0;
+
+        final List<UserHandle> profiles = mUserManager.getUserProfiles();
+
+        // Clear the list of apps
+        mBgAllAppsList.clear();
+        for (UserHandle user : profiles) {
+            // Query for the set of apps
+            final long qiaTime = DEBUG_LOADERS ? SystemClock.uptimeMillis() : 0;
+            final List<LauncherActivityInfo> apps = mLauncherApps.getActivityList(null, user);
             if (DEBUG_LOADERS) {
                 Log.d(TAG, "getActivityList took "
                         + (SystemClock.uptimeMillis()-qiaTime) + "ms for user " + user);
@@ -815,6 +846,7 @@ public class LoaderTask implements Runnable {
             if (apps == null || apps.isEmpty()) {
                 return;
             }
+
             boolean quietMode = mUserManager.isQuietModeEnabled(user);
             // Create the ApplicationInfos
             for (int i = 0; i < apps.size(); i++) {
@@ -825,7 +857,6 @@ public class LoaderTask implements Runnable {
 
             ManagedProfileHeuristic.onAllAppsLoaded(mApp.getContext(), apps, user);
         }
-
         if (FeatureFlags.LAUNCHER3_PROMISE_APPS_IN_ALL_APPS) {
             // get all active sessions and add them to the all apps list
             for (PackageInstaller.SessionInfo info :
@@ -840,7 +871,7 @@ public class LoaderTask implements Runnable {
             Log.d(TAG, "All apps loaded in in "
                     + (SystemClock.uptimeMillis() - loadTime) + "ms");
         }
-    }
+    }*/
 
     private void loadDeepShortcuts() {
         mBgDataModel.deepShortcutMap.clear();

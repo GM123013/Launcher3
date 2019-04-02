@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 
-<profiles xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3" >
+<profiles xmlns:tools="http://schemas.android.com/tools"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3"
+    tools:ignore="ResAuto">
 
     <profile
         launcher:name="Super Short Stubby"
@@ -152,6 +154,7 @@
         launcher:defaultLayoutId="@xml/default_workspace_5x6"
         />
 
+    <!--device default-->
     <profile
         launcher:name="Nexus 10"
         launcher:minWidthDps="727"
